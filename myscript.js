@@ -45,10 +45,10 @@ console.log(team[0], team[1], team[2], team[3], team[4], team[5]);
 for (const user of team) {
   cardUser.innerHTML += `
     <div class="card" style="width: 18rem;">
-          <img src="./img/${team.immagine}" class="card-img-top" alt="...">
+          <img src="./img/${user.immagine}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">${team.nome}</h5>
-            <p class="card-text">${team.ruolo}</p>
+            <h5 class="card-title">${user.nome}</h5>
+            <p class="card-text">${user.ruolo}</p>
           </div>
         </div>
     `;
