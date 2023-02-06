@@ -49,7 +49,6 @@ for (const user of team) {
           <div class="card-body">
             <h5 class="card-title">${team.nome}</h5>
             <p class="card-text">${team.ruolo}</p>
-           
           </div>
         </div>
     `;
