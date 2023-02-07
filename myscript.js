@@ -39,6 +39,11 @@ const team = [
 // MILESTONE 1:
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 console.log(team[0], team[1], team[2], team[3], team[4], team[5]);
+for (const user of team) {
+  console.log("name: " + user.nome);
+  console.log("ruolo: " + user.ruolo);
+  console.log("foto: " + user.immagine);
+}
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sottoforma di stringhe
 
